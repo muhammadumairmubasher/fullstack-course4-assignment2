@@ -1,3 +1,4 @@
+/* Basic Styling*/
 *{
 	box-sizing: border-box;
 	margin: 0;
@@ -18,8 +19,7 @@ section#container1,section#container2,section#container3 {
 	float:left;
 }
 
-p#t1{
-	background-color:pink;
+p#t1, p#t2, p#t3{
 	font-size: 125%;
 	font-weight: bold;
 	padding: 1px 20px 1px 20px;
@@ -27,33 +27,26 @@ p#t1{
 	position: absolute; 
 	top:0px;
 	right: 0px;
+}
+p#t1{
+	background-color:pink;
+	
 }
 p#t2{
 	background-color:red;
 	color: white;
-	font-size: 125%;
-	font-weight: bold;
-	padding: 1px 20px 1px 20px;
-	border:2px solid black;
-	position: absolute; 
-	top:0px;
-	right: 0px;
-}
+	}
 p#t3{
 	background-color:yellow;
-	font-size: 135%;
-	font-weight: bold;
-	padding: 1px 20px 1px 20px;
-	border:2px solid black;
-	position: absolute; 
-	top:0px;
-	right: 0px;
 }
+/* For Destop View*/
 @media(min-width: 992px) {
 	section#container1,section#container2,section#container3{
 		width: 29%;
 	}
 }
+/* For Tablet View*/
+
 @media(min-width: 768px) and (max-width: 991px){
 	section#container1,section#container2{
 		width: 44.65%;
@@ -62,6 +55,9 @@ p#t3{
 		width: 95%;
 	}
 }
+
+/* For Mobile View*/
+
 @media(max-width: 767px) 
 {
 	section#container1,section#container2,section#container3{
