@@ -23,7 +23,7 @@ p#t1, p#t2, p#t3{
 	font-size: 125%;
 	font-weight: bold;
 	padding: 1px 20px 1px 20px;
-	border:2px solid black;
+	border:1px solid black;
 	position: absolute; 
 	top:0px;
 	right: 0px;
